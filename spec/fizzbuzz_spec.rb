@@ -19,6 +19,12 @@ describe "fizzbuzz" do
     expect(fizzbuzz(20)).to eq("buzz")
     expect(fizzbuzz(25)).to eq("buzz")
   end
+
+  it "should return fizzbuzz divisible by 3 and 5"  do
+    expect(fizzbuzz(15)).to eq("fizzbuzz")
+    expect(fizzbuzz(30)).to eq("fizzbuzz")
+    expect(fizzbuzz(60)).to eq("fizzbuzz")
+  end
 end
 
 
