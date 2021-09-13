@@ -13,6 +13,12 @@ describe "fizzbuzz" do
     expect(fizzbuzz(21)).to eq("fizz")
     expect(fizzbuzz(36)).to eq("fizz")
   end
+  it "should return buzz when number is divisible by 5" do
+    expect(fizzbuzz(5)).to eq("buzz")
+    expect(fizzbuzz(10)).to eq("buzz")
+    expect(fizzbuzz(20)).to eq("buzz")
+    expect(fizzbuzz(25)).to eq("buzz")
+  end
 end
 
 
